@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewJeans</title>
+  <link rel="icon" href="assets/img/tokki.png" type="image" sizes="16x16">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logonwjns.png"  alt="" width="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Album" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Album
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Album">New Jeans</a></li>
+              <li><a class="dropdown-item" href="#Album">Ditto</a></li>
+              <li><a class="dropdown-item" href="#Album">OMG</a></li>
+              <li><a class="dropdown-item" href="#Album">Tell Me</a></li>
+              <li><a class="dropdown-item" href="#Album">Zero</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Member
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Member">Minji</a></li>
+              <li><a class="dropdown-item" href="#Member">Hanni</a></li>
+              <li><a class="dropdown-item" href="#Member">Danielle</a></li>
+              <li><a class="dropdown-item" href="#Member">Haerin</a></li>
+              <li><a class="dropdown-item" href="#Member">Hyein</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#MV">Music Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#News">News</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Carousel-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="assets/img/crs1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/csr2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/crs3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/crs4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Album-->
+  <section id="Album">
+    <h3 class="text-center py-4">Album</h3>
+      <div class="container text-center">  
+        <div class="row g-2 justify-content-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="row g-2">
+              <div class="col">
+                <div class="card" style=" width: 200px; text-align: center;">
+                  <img src="assets/img/blue.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>New Jeans</h4>
+                      <p class="card-text">Debut Mini Album
+                        <br>
+                        Release Date: August 1, 2022
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="card" style="width: 200px;">
+                  <img src="assets/img/red.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>Ditto</h4>
+                      <p class="card-text">Digital Single
+                        <br>
+                        Release Date: December 19, 2022
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 200px;">
+                  <img src="assets/img/black.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>OMG</h4>
+                      <p class="card-text">First Single Album
+                        <br>
+                        Release Date: January 2, 2023
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 200px;">
+                  <img src="assets/img/pink.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>Tell Me</h4>
+                      <p class="card-text">Digital Remix Single
+                        <br>
+                        Release Date: January 24, 2023
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card" style="width: 595px;">
+              <div class="play-on-hover"></div>
+                <div class="card-body">
+                  <h4>Zero</h4>
+                  <p class="card-text" >Promotional Digital Single (Coca-Cola)
+                    Release Date: April 3, 2023
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pt-3 pb-4" style="margin-top: 10px;">
+        <a class="btn btn-dark" href="#" target="_self" role="button">See Other Album</a>
+      </div>
+  </section>
+  <!--Member-->
+  <section id="Member">
+    <div class="table-responsive member">
+      <h3 class="text-center pt-4 pb-3" style="color: white;">Member</h3>
+      <table class="table table-borderless text-center d-flex justify-content-center">
+        <tbody>
+          <tr>
+            <td>
+              <div class="container-rekom">
+                <div class="overlay">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="assets/img/minji.png">
+                      <div class="overlaymj"></div>
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Minji</h3>
+                        <p class="content-text">Kim Minji</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="container-rekom">
+                <div class="overlay">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="assets/img/hanni.png">
+                      <div class="overlayhn"></div>
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Hanni</h3>
+                        <p class="content-text">Hanni Pham</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <td>
+              <div class="container-rekom">
+                <div class="overlay">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="assets/img/danielle.png">
+                      <div class="overlaydn"></div>
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Danielle</h3>
+                        <p class="content-text">Danielle Marsh</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <td>
+              <div class="container-rekom">
+                <div class="overlay">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="assets/img/haerin.png">
+                      <div class="overlayhr"></div>
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Haerin</h3>
+                        <p class="content-text">Kang Haerin</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <td>
+              <div class="container-rekom">
+                <div class="overlay">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="assets/img/hyein.png">
+                      <div class="overlayhy"></div>
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Hyein</h3>
+                        <p class="content-text">Lee Hyein</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-center mb-4">
+        <a class="btn btn-light" href="#" target="_self" role="button">About NewJeans Member</a>
+      </div>
+    </div>
+  </section>
+  <!--video-->
+  <section id="MV">
+    <div class="video d-flex">
+      <video class="video-full" controls autoplay muted loop>
+        <source src="assets/vid/mv.mp4" type="video/mp4" style="width: 50px;">
+      </video>
+    </div>
+  </section>
+  <!--News-->
+  <section id="News">
+    <!--Instagram-->
+    <div class="container-insta">
+      <h3 class="text-center py-4">follow @newjeans_official</h3>
+      <div class="row-news">
+        <div class="image">
+          <img src="assets/img/post1.png" alt="">
+          <div class="details">
+            <div class="more">
+              <a href="https://www.instagram.com/p/Cm6pYZmSiFj/?utm_source=ig_web_copy_link" target="_blank" class="read-more">newjeans_official</a>
+              <div class="icon-links">
+                <a href="https://www.instagram.com/newjeans_official/" target="_blank" ><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/img/post2.png" alt="">
+          <div class="details">
+            <div class="more">
+              <a href="https://www.instagram.com/p/CriyLN0rUVC/?utm_source=ig_web_copy_link" target="_blank" class="read-more">newjeans_official</a>
+              <div class="icon-links">
+                <a href="https://www.instagram.com/newjeans_official/" target="_blank" ><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/img/post3.png" alt="">
+          <div class="details">
+            <div class="more">
+              <a href="https://www.instagram.com/p/CqRmLYJPX6o/?utm_source=ig_web_copy_link" target="_blank" class="read-more">newjeans_official</a>
+              <div class="icon-links">
+                <a href="https://www.instagram.com/newjeans_official/" target="_blank" ><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Blog-->
+    <div class="container-blog">
+      <h3 class="text-center pb-4">Blog</h3>
+      <div class="row-news">
+        <div class="image">
+          <img src="assets/img/blog1.png" alt="">
+          <div class="details">
+            <div class="more-blog">
+              <a href="#" class="read-more">Danielle NewJeans Jadi Pengisi Suara Princess Ariel di Film The Little Mermaid Versi Korea</a>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/img/blog2.png" alt="">
+          <div class="details">
+            <div class="more-blog">
+              <a href="#" class="read-more">Haerin NewJeans Diumumkan Sebagai Duta Global Dior Terbaru</a>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/img/blog3.png" alt="">
+          <div class="details">
+            <div class="more-blog">
+              <a href="#" class="read-more">Video Musik Lagu Sejuta Umat "Hype Boy" NewJeans Tembus 100 Juta Views</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <div class="footer0">
+    <div class="container">
+      <div class="row">
+        <div id="logofooter">
+          <img class="my-3" src="assets/img/logonwjns.png" float="true" width="120px">
+        </div>
+        <div class="col">
+          <p1 class="para2">NewJeans</p1>
+          <div class="footertext1">
+          Seoul, South Korea <br>
+          K-Pop <br>
+          Label	ADOR <br>
+          Label	HYBE <br>
+          Official Web :	<a href="newjeans.kr" style="color: #fff;">newjeans.kr</a> <br>
+          </div>
+        </div>
+        <div class="col"><div class="footertext2">NewJeans (뉴진스) is a 5 member girl group under ADOR and HYBE Labels. The members consist of Minji, Hanni, Danielle, Haerin, and Hyein. They released their debut single “Attention” on July 22, 2022, followed by their debut extended play, New Jeans, which was released on August 1, 2022.</div>
+      </div>
+        <div class="col">
+          <div class="footertext">
+            <p1 class="para2">© 2023 ADOR. All Rights Reserved.</p1> <br>
+            About newjeans <br>
+            Membership Terms<br>
+            Site Policy<br>
+            Privacy Policy
+          </div>
+        </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <h5 class="textfooter">"NewJeans Are Not Blue"</h5>
+      </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <a class="navbar-brand" href="https://www.instagram.com/newjeans_official/" target="_blank">
+            <i class="fa-brands fa-instagram sosmed" style="font-size: 20px;"></i>
+          </a>
+          <a class="navbar-brand" href="https://youtube.com/@NewJeans_official" target="_blank">
+            <i class="fa-brands fa-youtube sosmed" style="font-size: 20px;"></i>
+          </a>
+          <a class="navbar-brand" href="https://twitter.com/NewJeans_ADOR" target="_blank">
+            <i class="fa-brands fa-twitter sosmed" style="font-size: 20px;"></i>
+          </a>
+          <a class="navbar-brand" href="https://www.tiktok.com/@newjeans_official" target="_blank">
+            <i class="fa-brands fa-tiktok sosmed" style="font-size: 20px;"></i>
+          </a>
+        </ul>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
